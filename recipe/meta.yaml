@@ -1,5 +1,5 @@
 {% set name = "niworkflows" %}
-{% set version = "1.13.5" %}
+{% set version = "1.14.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/niworkflows-{{ version }}.tar.gz
-  sha256: 00724381c9997362893f40b0e8a066f95880bb6334d5877ac843a9a4ebfba140
+  sha256: 9f72aae8610e2517078c2b937d80381410ac3d876db9a141c0c9a17416a08a60
 
 build:
   entry_points:
